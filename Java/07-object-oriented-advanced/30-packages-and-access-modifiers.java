@@ -304,9 +304,12 @@ class PackagesAndAccessModifiers {
         System.out.println("  The JDK itself is modularised. Your classes are in:");
         System.out.println("    String's module   -> " + String.class.getModule().getName());
         System.out.println("    List's module     -> " + List.class.getModule().getName());
+        String ourModule = PackagesAndAccessModifiers.class.getModule().getName();
         System.out.println("    this class's module -> "
-                + PackagesAndAccessModifiers.class.getModule().getName()
-                + "   (the unnamed module - classpath code)");
+                + (ourModule == null ? "(the UNNAMED module)" : ourModule));
+        System.out.println("      getName() returns null for the unnamed module, which is");
+        System.out.println("      where all classpath code lives. Everything you put on the");
+        System.out.println("      classpath rather than the module path ends up here.");
         System.out.println();
         System.out.println("  That modularisation is why sun.misc.Unsafe and other internals");
         System.out.println("  became inaccessible in Java 9 and broke a great deal of code.");
