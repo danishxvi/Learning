@@ -45,6 +45,21 @@ zero-install alternative so you are never blocked.
 
 ---
 
+## Progress
+
+**Lessons 01-16 are complete** - written, run and verified. Everything below that line
+is planned and listed here so you can see the full route.
+
+| Section | Status |
+| --- | --- |
+| 01 Getting started (01-04) | Complete |
+| 02 Operators and input (05-07) | Complete |
+| 03 Control flow (08-11) | Complete |
+| 04 Arrays and strings (12-16) | Complete |
+| 05-14 (17-76) | In progress |
+
+---
+
 ## Syllabus
 
 Read in numeric order. Each topic is a pair: the `.md` is the lesson, the `.java` is the
