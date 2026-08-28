@@ -263,8 +263,9 @@ class ObjectClassMethods {
         System.out.println("    2. Cloneable is a MARKER INTERFACE WITH NO clone() METHOD.");
         System.out.println("       It does not give you the method - it only stops");
         System.out.println("       Object.clone() from throwing. A genuinely strange design:");
-        System.out.println("         Cloneable declares " + Arrays.toString(Cloneable.class.getDeclaredMethods())
-                + " methods");
+        System.out.println("         Cloneable.class.getDeclaredMethods().length == "
+                + Cloneable.class.getDeclaredMethods().length
+                + "   <- it declares NOTHING");
         System.out.println("    3. CloneNotSupportedException is CHECKED and cannot actually");
         System.out.println("       happen once you implement Cloneable - so every");
         System.out.println("       implementation carries a pointless catch block");
