@@ -225,7 +225,7 @@ topics are complete, so you always know where the finished edge is.
 
 | Stack | Status |
 | --- | --- |
-| Java | 16 of 76 lessons complete |
+| Java | 29 of 76 lessons complete |
 | JavaScript | Planned |
 | Node.js | Planned |
 | React | Planned |

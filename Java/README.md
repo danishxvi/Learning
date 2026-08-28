@@ -47,7 +47,7 @@ zero-install alternative so you are never blocked.
 
 ## Progress
 
-**Lessons 01-16 are complete** - written, run and verified. Everything below that line
+**Lessons 01-29 are complete** - written, run and verified. Everything below that line
 is planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -56,7 +56,9 @@ is planned and listed here so you can see the full route.
 | 02 Operators and input (05-07) | Complete |
 | 03 Control flow (08-11) | Complete |
 | 04 Arrays and strings (12-16) | Complete |
-| 05-14 (17-76) | In progress |
+| 05 Methods (17-20) | Complete |
+| 06 Object-oriented core (21-29) | Complete |
+| 07-14 (30-76) | In progress |
 
 ---
 
