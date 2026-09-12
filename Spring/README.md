@@ -76,7 +76,7 @@ planned and listed here so you can see the full route.
 | --- | --- |
 | 01 Introduction and setup (01-05) | Complete |
 | 02 The IoC container and DI (06-14) | Complete |
-| 03 Spring Boot fundamentals (15-20) | In progress - 15-18 done |
+| 03 Spring Boot fundamentals (15-20) | In progress - 15-19 done |
 | 04-14 (21-70) | Next |
 
 ---
@@ -118,7 +118,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 16 | [Starters and dependency management](03-spring-boot-fundamentals/16-starters-and-dependency-management/16-starters-and-dependency-management.md) |
 | 17 | [`CommandLineRunner` and `ApplicationRunner`](03-spring-boot-fundamentals/17-commandlinerunner-and-applicationrunner/17-commandlinerunner-and-applicationrunner.md) |
 | 18 | [Logging with SLF4J and Logback](03-spring-boot-fundamentals/18-logging-with-slf4j-and-logback/18-logging-with-slf4j-and-logback.md) |
-| 19 | DevTools and the inner development loop |
+| 19 | [DevTools and the inner development loop](03-spring-boot-fundamentals/19-devtools-and-the-inner-development-loop/19-devtools-and-the-inner-development-loop.md) |
 | 20 | Actuator basics |
 
 ### 04 · Building REST APIs with Spring MVC

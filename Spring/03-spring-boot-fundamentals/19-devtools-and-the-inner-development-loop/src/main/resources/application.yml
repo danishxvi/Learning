@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: devtools-demo
+
+app:
+  greeting-suffix: "(version 1)"
