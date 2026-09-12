@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: filter-chain-demo
+logging:
+  level:
+    org.springframework.security: DEBUG
