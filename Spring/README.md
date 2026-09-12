@@ -77,7 +77,7 @@ planned and listed here so you can see the full route.
 | 01 Introduction and setup (01-05) | Complete |
 | 02 The IoC container and DI (06-14) | Complete |
 | 03 Spring Boot fundamentals (15-20) | Complete |
-| 04 Building REST APIs with Spring MVC (21-28) | In progress - 21 done |
+| 04 Building REST APIs with Spring MVC (21-28) | In progress - 21-22 done |
 | 05-14 (29-70) | Next |
 
 ---
@@ -127,7 +127,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | # | Topic |
 | --- | --- |
 | 21 | [`@RestController` and the `@RequestMapping` family](04-building-rest-apis-with-spring-mvc/21-restcontroller-and-request-mapping/21-restcontroller-and-request-mapping.md) |
-| 22 | Path variables, request params and request bodies |
+| 22 | [Path variables, request params and request bodies](04-building-rest-apis-with-spring-mvc/22-path-variables-request-params-and-request-bodies/22-path-variables-request-params-and-request-bodies.md) |
 | 23 | `ResponseEntity` and HTTP status codes |
 | 24 | DTOs, entities, and mapping between them |
 | 25 | Exception handling with `@ControllerAdvice` |
