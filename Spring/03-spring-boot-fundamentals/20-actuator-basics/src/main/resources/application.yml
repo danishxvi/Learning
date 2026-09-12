@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: actuator-demo
+
+server:
+  port: 8080
+
+management:
+  server:
+    port: 8081                     # a SEPARATE port for operational endpoints - see the .md
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,beans,env
+  endpoint:
+    health:
+      show-details: always
+  info:
+    env:
+      enabled: true      # without this, /actuator/info ignores the info.* properties below
+
+info:
+  app:
+    name: Actuator Basics Demo
+    description: Lesson 20 of the Spring stack
+    version: "1.0.0"
