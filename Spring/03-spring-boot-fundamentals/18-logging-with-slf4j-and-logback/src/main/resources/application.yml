@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: logging-demo
+
+logging:
+  level:
+    root: INFO
+    com.danish.spring.logging: DEBUG   # raises just OUR package's threshold, not root

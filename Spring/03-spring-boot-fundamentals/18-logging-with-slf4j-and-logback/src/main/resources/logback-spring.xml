@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Spring Boot looks for "logback-spring.xml" specifically (not plain "logback.xml") so
+     that it can process Spring-specific tags like <springProfile> BEFORE handing the rest
+     to plain Logback - a plain logback.xml is initialized too early to see Boot's own
+     configuration. This file replaces Boot's default console pattern (lesson 03's default
+     look) with one that also prints %X{requestId} - MDC content, explained below. -->
+<configuration>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] [requestId=%X{requestId:-none}] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- <springProfile> is a Logback tag Boot understands ONLY inside logback-spring.xml -
+         this whole appender only activates when the "verbose" profile is active. -->
+    <springProfile name="verbose">
+        <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+            <file>target/verbose-demo.log</file>
+            <encoder>
+                <pattern>%d{ISO8601} %-5level [%thread] [requestId=%X{requestId:-none}] %logger{36} - %msg%n</pattern>
+            </encoder>
+        </appender>
+        <root level="INFO">
+            <appender-ref ref="FILE"/>
+        </root>
+    </springProfile>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
