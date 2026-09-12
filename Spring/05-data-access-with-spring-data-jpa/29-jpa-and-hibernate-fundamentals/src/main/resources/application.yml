@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: jpa-fundamentals
+  datasource:
+    url: jdbc:h2:mem:jpafundamentals;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update   # Hibernate creates/updates tables to match @Entity classes - lesson 36 replaces this with Flyway
+    show-sql: true        # print every SQL statement Hibernate actually sends
+    properties:
+      hibernate:
+        format_sql: true  # pretty-print it, instead of one long line

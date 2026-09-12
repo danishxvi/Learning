@@ -78,7 +78,8 @@ planned and listed here so you can see the full route.
 | 02 The IoC container and DI (06-14) | Complete |
 | 03 Spring Boot fundamentals (15-20) | Complete |
 | 04 Building REST APIs with Spring MVC (21-28) | Complete |
-| 05-14 (29-70) | Next |
+| 05 Data access with Spring Data JPA (29-37) | In progress - 29 done |
+| 06-14 (38-70) | Next |
 
 ---
 
@@ -139,7 +140,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 
 | # | Topic |
 | --- | --- |
-| 29 | JPA and Hibernate fundamentals |
+| 29 | [JPA and Hibernate fundamentals](05-data-access-with-spring-data-jpa/29-jpa-and-hibernate-fundamentals/29-jpa-and-hibernate-fundamentals.md) |
 | 30 | Entity mapping and relationships |
 | 31 | Spring Data repositories |
 | 32 | Derived and custom queries |
