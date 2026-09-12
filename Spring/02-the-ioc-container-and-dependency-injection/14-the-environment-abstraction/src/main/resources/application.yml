@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: environment-demo
+
+app:
+  max-retries: 5
