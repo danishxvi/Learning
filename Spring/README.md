@@ -75,7 +75,7 @@ planned and listed here so you can see the full route.
 | Section | Status |
 | --- | --- |
 | 01 Introduction and setup (01-05) | Complete |
-| 02 The IoC container and DI (06-14) | In progress - 06-09 done |
+| 02 The IoC container and DI (06-14) | In progress - 06-10 done |
 | 03-14 (15-70) | Next |
 
 ---
@@ -103,7 +103,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 07 | [Stereotype annotations and component scanning](02-the-ioc-container-and-dependency-injection/07-stereotype-annotations-and-component-scanning/07-stereotype-annotations-and-component-scanning.md) |
 | 08 | [Constructor vs field vs setter injection](02-the-ioc-container-and-dependency-injection/08-constructor-vs-field-vs-setter-injection/08-constructor-vs-field-vs-setter-injection.md) |
 | 09 | [`@Configuration` classes and `@Bean` methods](02-the-ioc-container-and-dependency-injection/09-configuration-classes-and-bean-methods/09-configuration-classes-and-bean-methods.md) |
-| 10 | Bean scopes |
+| 10 | [Bean scopes](02-the-ioc-container-and-dependency-injection/10-bean-scopes/10-bean-scopes.md) |
 | 11 | Qualifiers and resolving ambiguous beans |
 | 12 | Conditional beans and profiles |
 | 13 | `@Value` injection and externalized configuration (recap and deeper dive) |
