@@ -80,7 +80,8 @@ planned and listed here so you can see the full route.
 | 04 Building REST APIs with Spring MVC (21-28) | Complete |
 | 05 Data access with Spring Data JPA (29-37) | Complete |
 | 06 Aspect-oriented programming (38-39) | Complete |
-| 07-14 (40-70) | Next |
+| 07 Spring Security (40-45) | In progress - 40 done |
+| 08-14 (46-70) | Next |
 
 ---
 
@@ -162,7 +163,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 
 | # | Topic |
 | --- | --- |
-| 40 | Authentication vs authorization |
+| 40 | [Authentication vs authorization](07-spring-security/40-authentication-vs-authorization/40-authentication-vs-authorization.md) |
 | 41 | The security filter chain |
 | 42 | Password encoding and `UserDetails` |
 | 43 | JWT-based stateless authentication |
