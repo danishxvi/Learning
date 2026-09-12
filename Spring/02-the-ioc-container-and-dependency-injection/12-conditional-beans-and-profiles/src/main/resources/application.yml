@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: conditional-beans-demo
+
+feature:
+  new-ui: false
