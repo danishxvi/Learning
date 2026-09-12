@@ -77,7 +77,7 @@ planned and listed here so you can see the full route.
 | 01 Introduction and setup (01-05) | Complete |
 | 02 The IoC container and DI (06-14) | Complete |
 | 03 Spring Boot fundamentals (15-20) | Complete |
-| 04 Building REST APIs with Spring MVC (21-28) | In progress - 21-26 done |
+| 04 Building REST APIs with Spring MVC (21-28) | In progress - 21-27 done |
 | 05-14 (29-70) | Next |
 
 ---
@@ -132,7 +132,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 24 | [DTOs, entities, and mapping between them](04-building-rest-apis-with-spring-mvc/24-dtos-entities-and-mapping-between-them/24-dtos-entities-and-mapping-between-them.md) |
 | 25 | [Exception handling with `@ControllerAdvice`](04-building-rest-apis-with-spring-mvc/25-exception-handling-with-controlleradvice/25-exception-handling-with-controlleradvice.md) |
 | 26 | [Bean Validation](04-building-rest-apis-with-spring-mvc/26-bean-validation/26-bean-validation.md) |
-| 27 | Pagination, sorting and filtering |
+| 27 | [Pagination, sorting and filtering](04-building-rest-apis-with-spring-mvc/27-pagination-sorting-and-filtering/27-pagination-sorting-and-filtering.md) |
 | 28 | API documentation with OpenAPI |
 
 ### 05 · Data access with Spring Data JPA
