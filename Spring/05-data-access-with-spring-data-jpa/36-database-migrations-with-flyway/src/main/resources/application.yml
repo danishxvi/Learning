@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: flyway-demo
+  datasource:
+    url: jdbc:h2:file:./target/flywaydb;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: validate   # Hibernate no longer creates/alters tables - it only CHECKS
+                            # that @Entity classes match what's already in the database.
+                            # Flyway owns the schema now; this is the line that hands
+                            # ownership over.
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: true
