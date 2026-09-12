@@ -75,7 +75,8 @@ planned and listed here so you can see the full route.
 | Section | Status |
 | --- | --- |
 | 01 Introduction and setup (01-05) | Complete |
-| 02-14 (06-70) | Next |
+| 02 The IoC container and DI (06-14) | In progress - 06 done |
+| 03-14 (15-70) | Next |
 
 ---
 
@@ -98,7 +99,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 
 | # | Topic |
 | --- | --- |
-| 06 | The `ApplicationContext` and the bean lifecycle |
+| 06 | [The `ApplicationContext` and the bean lifecycle](02-the-ioc-container-and-dependency-injection/06-the-applicationcontext-and-the-bean-lifecycle/06-the-applicationcontext-and-the-bean-lifecycle.md) |
 | 07 | Stereotype annotations and component scanning |
 | 08 | Constructor vs field vs setter injection |
 | 09 | `@Configuration` classes and `@Bean` methods |
