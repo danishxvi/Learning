@@ -79,7 +79,7 @@ planned and listed here so you can see the full route.
 | 03 Spring Boot fundamentals (15-20) | Complete |
 | 04 Building REST APIs with Spring MVC (21-28) | Complete |
 | 05 Data access with Spring Data JPA (29-37) | Complete |
-| 06 Aspect-oriented programming (38-39) | In progress - 38 done |
+| 06 Aspect-oriented programming (38-39) | Complete |
 | 07-14 (40-70) | Next |
 
 ---
@@ -156,7 +156,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | # | Topic |
 | --- | --- |
 | 38 | [Cross-cutting concerns and the proxy problem](06-aspect-oriented-programming/38-cross-cutting-concerns-and-the-proxy-problem/38-cross-cutting-concerns-and-the-proxy-problem.md) |
-| 39 | Aspects, pointcuts and advice |
+| 39 | [Aspects, pointcuts and advice](06-aspect-oriented-programming/39-aspects-pointcuts-and-advice/39-aspects-pointcuts-and-advice.md) |
 
 ### 07 · Spring Security
 
