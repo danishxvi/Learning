@@ -1,6 +1,7 @@
 # Learning
 
-A single, self-contained study repository for **Java**, **JavaScript**, **Node.js** and **React**.
+A single, self-contained study repository for **Java**, **Spring**, **JavaScript**, **Node.js**
+and **React**.
 
 Maintained by **Danish Husain**.
 
@@ -17,17 +18,17 @@ The goal is simple and deliberately ambitious:
 > **After reading a file in this repository, you should not need to open another
 > resource to understand that concept.**
 
-To make that possible, every topic is delivered as **two files that share the same
-number and name**:
+To make that possible, every topic is delivered as **a lesson paired with runnable
+code that shares its number and name**:
 
 | File | Purpose |
 | --- | --- |
 | `NN-topic-name.md` | The lesson. Theory, mental models, syntax tables, memory diagrams, common mistakes, interview-grade edge cases and a summary. Renders directly on GitHub, so you can learn from the browser on any device. |
-| `NN-topic-name.<ext>` | The proof. A single, runnable, heavily commented program that demonstrates every claim the lesson makes. Run it, break it, change it. |
+| `NN-topic-name.<ext>` (or a small project folder, for stacks that need one) | The proof. A runnable, heavily commented program that demonstrates every claim the lesson makes. Run it, break it, change it. |
 
 The files are numbered **sequentially across an entire stack**, so the learning order is
 never ambiguous. Start at `01`, finish at the last number, and you will have walked the
-whole language in the order concepts actually build on each other — never using an idea
+whole subject in the order concepts actually build on each other — never using an idea
 before it has been explained.
 
 ---
@@ -37,6 +38,7 @@ before it has been explained.
 ```
 Learning/
 ├── Java/           Core Java, from `public static void main` to virtual threads
+├── Spring/         Spring Framework and Spring Boot, from dependency injection to production
 ├── JavaScript/     The language itself, browser APIs and the modern ECMAScript feature set
 ├── Node.js/        Server-side JavaScript, Express, databases, auth, testing, deployment
 └── React/          Components, hooks, routing, state management, performance, testing
@@ -47,7 +49,10 @@ Each stack folder has:
 - its **own `README.md`** containing the full ordered syllabus with links, plus the exact
   commands needed to run that stack's examples,
 - **numbered section folders** (`01-...`, `02-...`) that group related topics,
-- the **`.md` + code file pairs** described above.
+- the **lesson + code pairing** described above — for Java that is a flat `.md`/`.java`
+  pair; for Spring, which needs Maven's directory layout, each lesson is its own small
+  Maven project folder (`NN-topic-name/`) holding the `.md` alongside `pom.xml` and
+  `src/`.
 
 ---
 
@@ -122,6 +127,38 @@ java -cp out YourFirstProgram
 
 > **VS Code users:** installing the *Extension Pack for Java* adds a green ▶ Run button
 > above `main`, which is the fastest way to work through these files.
+
+---
+
+### Spring
+
+**Install:** the JDK (**version 21 or newer** — the same one used for the `Java/` stack)
+plus [Apache Maven](https://maven.apache.org/download.cgi). Spring projects need Maven's
+`pom.xml`/`src` layout, so unlike the `Java/` stack this one cannot run as a bare `.java`
+file.
+
+Verify both:
+
+```bash
+java -version
+```
+
+```bash
+mvn -version
+```
+
+**Run any lesson** by pointing Maven at that lesson's folder:
+
+```bash
+mvn -f Spring/01-introduction-and-setup/03-your-first-spring-boot-project spring-boot:run
+```
+
+Lessons before Spring Boot is introduced use plain `mvn compile exec:java` instead — each
+lesson's `.md` states the exact command at the top, so you never have to guess it.
+
+> The first `mvn` command for any lesson downloads that lesson's dependencies from Maven
+> Central, so you need an internet connection the first time you run it. After that, Maven
+> caches everything in `~/.m2` and later runs work offline.
 
 ---
 
@@ -225,7 +262,8 @@ topics are complete, so you always know where the finished edge is.
 
 | Stack | Status |
 | --- | --- |
-| Java | 45 of 76 lessons complete |
+| Java | 45 of 76 lessons complete — paused, resuming later |
+| Spring | In progress |
 | JavaScript | Planned |
 | Node.js | Planned |
 | React | Planned |
