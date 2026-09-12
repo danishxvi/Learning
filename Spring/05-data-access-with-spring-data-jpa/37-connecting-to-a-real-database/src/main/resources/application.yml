@@ -1,0 +1,24 @@
+# Every value below is the ONLY thing that changes moving from H2 (lessons 29-36) to a
+# real Postgres server. The entity classes, repositories, and Flyway migrations in this
+# project are completely database-agnostic and needed zero changes.
+spring:
+  application:
+    name: real-database-demo
+  datasource:
+    url: jdbc:postgresql://localhost:55432/learningdb
+    driver-class-name: org.postgresql.Driver
+    username: learning
+    password: learning
+    hikari:
+      maximum-pool-size: 10   # HikariCP (lesson 03's dependency tree) - the real
+                               # connection pool, same one every earlier lesson already
+                               # used against H2 without it being visible as a decision.
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        # No dialect configured here on purpose - see the .md for why that line, common
+        # in older tutorials, is not needed with a modern Hibernate/Boot version.
