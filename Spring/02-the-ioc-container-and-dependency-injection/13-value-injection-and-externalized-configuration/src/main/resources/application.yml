@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: value-deep-dive
+
+app:
+  allowed-currencies: USD,EUR,INR,GBP

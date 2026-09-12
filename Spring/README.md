@@ -75,7 +75,7 @@ planned and listed here so you can see the full route.
 | Section | Status |
 | --- | --- |
 | 01 Introduction and setup (01-05) | Complete |
-| 02 The IoC container and DI (06-14) | In progress - 06-12 done |
+| 02 The IoC container and DI (06-14) | In progress - 06-13 done |
 | 03-14 (15-70) | Next |
 
 ---
@@ -106,7 +106,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 10 | [Bean scopes](02-the-ioc-container-and-dependency-injection/10-bean-scopes/10-bean-scopes.md) |
 | 11 | [Qualifiers and resolving ambiguous beans](02-the-ioc-container-and-dependency-injection/11-qualifiers-and-resolving-ambiguous-beans/11-qualifiers-and-resolving-ambiguous-beans.md) |
 | 12 | [Conditional beans and profiles](02-the-ioc-container-and-dependency-injection/12-conditional-beans-and-profiles/12-conditional-beans-and-profiles.md) |
-| 13 | `@Value` injection and externalized configuration (recap and deeper dive) |
+| 13 | [`@Value` injection and externalized configuration (recap and deeper dive)](02-the-ioc-container-and-dependency-injection/13-value-injection-and-externalized-configuration/13-value-injection-and-externalized-configuration.md) |
 | 14 | The `Environment` abstraction |
 
 ### 03 · Spring Boot fundamentals
