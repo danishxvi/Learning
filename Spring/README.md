@@ -76,7 +76,7 @@ planned and listed here so you can see the full route.
 | --- | --- |
 | 01 Introduction and setup (01-05) | Complete |
 | 02 The IoC container and DI (06-14) | Complete |
-| 03 Spring Boot fundamentals (15-20) | In progress - 15 done |
+| 03 Spring Boot fundamentals (15-20) | In progress - 15-16 done |
 | 04-14 (21-70) | Next |
 
 ---
@@ -115,7 +115,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | # | Topic |
 | --- | --- |
 | 15 | [Auto-configuration, explained](03-spring-boot-fundamentals/15-autoconfiguration-explained/15-autoconfiguration-explained.md) |
-| 16 | Starters and dependency management |
+| 16 | [Starters and dependency management](03-spring-boot-fundamentals/16-starters-and-dependency-management/16-starters-and-dependency-management.md) |
 | 17 | `CommandLineRunner` and `ApplicationRunner` |
 | 18 | Logging with SLF4J and Logback |
 | 19 | DevTools and the inner development loop |
