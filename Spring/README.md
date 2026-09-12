@@ -78,7 +78,7 @@ planned and listed here so you can see the full route.
 | 02 The IoC container and DI (06-14) | Complete |
 | 03 Spring Boot fundamentals (15-20) | Complete |
 | 04 Building REST APIs with Spring MVC (21-28) | Complete |
-| 05 Data access with Spring Data JPA (29-37) | In progress - 29-34 done |
+| 05 Data access with Spring Data JPA (29-37) | In progress - 29-35 done |
 | 06-14 (38-70) | Next |
 
 ---
@@ -146,7 +146,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 32 | [Derived and custom queries](05-data-access-with-spring-data-jpa/32-derived-and-custom-queries/32-derived-and-custom-queries.md) |
 | 33 | [Transactions and `@Transactional`](05-data-access-with-spring-data-jpa/33-transactions-and-transactional/33-transactions-and-transactional.md) |
 | 34 | [Pagination and projections](05-data-access-with-spring-data-jpa/34-pagination-and-projections/34-pagination-and-projections.md) |
-| 35 | Auditing and timestamps |
+| 35 | [Auditing and timestamps](05-data-access-with-spring-data-jpa/35-auditing-and-timestamps/35-auditing-and-timestamps.md) |
 | 36 | Database migrations with Flyway |
 | 37 | Connecting to a real database (Postgres/MySQL) |
 
