@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- This parent is the "starter dependency management" from lesson 02's comparison
+         table: it pins compatible versions for every Spring Boot artifact, so nothing
+         below this line needs a <version>. Change ONE line here to upgrade every
+         Spring Boot dependency in this project together. -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.4</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.danish.spring</groupId>
+    <artifactId>03-your-first-spring-boot-project</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <java.version>21</java.version>
+    </properties>
+
+    <dependencies>
+        <!-- The plainest Boot starter: auto-configuration plus logging. No web,
+             no database - just enough to run @SpringBootApplication and see what
+             starting a Boot application actually does. -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- This plugin is what lets `mvn spring-boot:run` work, and is also what
+                 packages this project into an executable "fat jar" (lesson 67). -->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
