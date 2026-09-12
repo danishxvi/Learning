@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: configuration-demo
+
+app:
+  notification:
+    default-sender: no-reply@example.com
+    retry-count: 3
+    allowed-channels:
+      - email
+      - sms
+    rate-limit:
+      max-per-minute: 60
+      burst: 10
+
+# Everything under `app.notification` above binds into NotificationProperties via
+# @ConfigurationProperties(prefix = "app.notification") - see the .md for how the
+# kebab-case keys here (default-sender) map onto camelCase fields (defaultSender).

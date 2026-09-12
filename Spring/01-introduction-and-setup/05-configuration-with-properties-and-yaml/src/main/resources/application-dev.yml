@@ -1,0 +1,7 @@
+# Only loaded when the "dev" profile is active (--spring.profiles.active=dev).
+# Values here OVERRIDE the matching keys in application.yml; keys not repeated
+# here (like allowed-channels) keep their value from application.yml.
+app:
+  notification:
+    default-sender: dev-no-reply@example.com
+    retry-count: 0

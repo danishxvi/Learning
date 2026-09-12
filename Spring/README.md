@@ -69,9 +69,12 @@ lesson for a later one to build or run.
 
 ## Progress
 
+**Lessons 01-05 are complete** - written, run and verified. Everything below that line is
+planned and listed here so you can see the full route.
+
 | Section | Status |
 | --- | --- |
-| 01 Introduction and setup (01-05) | In progress |
+| 01 Introduction and setup (01-05) | Complete |
 | 02-14 (06-70) | Next |
 
 ---
@@ -102,7 +105,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 10 | Bean scopes |
 | 11 | Qualifiers and resolving ambiguous beans |
 | 12 | Conditional beans and profiles |
-| 13 | `@Value` injection and externalized configuration |
+| 13 | `@Value` injection and externalized configuration (recap and deeper dive) |
 | 14 | The `Environment` abstraction |
 
 ### 03 · Spring Boot fundamentals
