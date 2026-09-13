@@ -81,7 +81,8 @@ planned and listed here so you can see the full route.
 | 05 Data access with Spring Data JPA (29-37) | Complete |
 | 06 Aspect-oriented programming (38-39) | Complete |
 | 07 Spring Security (40-45) | Complete |
-| 08-14 (46-70) | Next |
+| 08 Testing Spring applications (46-50) | In progress - 46 done |
+| 09-14 (51-70) | Next |
 
 ---
 
@@ -174,7 +175,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 
 | # | Topic |
 | --- | --- |
-| 46 | Unit testing with JUnit 5 and Mockito |
+| 46 | [Unit testing with JUnit 5 and Mockito](08-testing-spring-applications/46-unit-testing-with-junit5-and-mockito/46-unit-testing-with-junit5-and-mockito.md) |
 | 47 | Testing the web layer with `@WebMvcTest` |
 | 48 | Testing the data layer with `@DataJpaTest` |
 | 49 | Full integration tests with `@SpringBootTest` |
