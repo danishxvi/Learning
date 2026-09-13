@@ -81,7 +81,7 @@ planned and listed here so you can see the full route.
 | 05 Data access with Spring Data JPA (29-37) | Complete |
 | 06 Aspect-oriented programming (38-39) | Complete |
 | 07 Spring Security (40-45) | Complete |
-| 08 Testing Spring applications (46-50) | In progress - 46-49 done |
+| 08 Testing Spring applications (46-50) | Complete |
 | 09-14 (51-70) | Next |
 
 ---
@@ -179,7 +179,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 47 | [Testing the web layer with `@WebMvcTest`](08-testing-spring-applications/47-testing-the-web-layer-with-webmvctest/47-testing-the-web-layer-with-webmvctest.md) |
 | 48 | [Testing the data layer with `@DataJpaTest`](08-testing-spring-applications/48-testing-the-data-layer-with-datajputest/48-testing-the-data-layer-with-datajputest.md) |
 | 49 | [Full integration tests with `@SpringBootTest`](08-testing-spring-applications/49-full-integration-tests-with-springboottest/49-full-integration-tests-with-springboottest.md) |
-| 50 | Integration testing with Testcontainers |
+| 50 | [Integration testing with Testcontainers](08-testing-spring-applications/50-integration-testing-with-testcontainers/50-integration-testing-with-testcontainers.md) |
 
 ### 09 · Transactions, async and scheduling
 
