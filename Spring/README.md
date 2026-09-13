@@ -69,7 +69,7 @@ lesson for a later one to build or run.
 
 ## Progress
 
-**Lessons 01-51 are complete** - written, run and verified. Everything below that line is
+**Lessons 01-54 are complete** - written, run and verified. Everything below that line is
 planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -82,7 +82,7 @@ planned and listed here so you can see the full route.
 | 06 Aspect-oriented programming (38-39) | Complete |
 | 07 Spring Security (40-45) | Complete |
 | 08 Testing Spring applications (46-50) | Complete |
-| 09 Transactions, async and scheduling (51-54) | In progress (53/4) |
+| 09 Transactions, async and scheduling (51-54) | Complete |
 | 10-14 (55-70) | Next |
 
 ---
@@ -189,7 +189,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 51 | [Transaction propagation and isolation](09-transactions-async-and-scheduling/51-transaction-propagation-and-isolation/51-transaction-propagation-and-isolation.md) |
 | 52 | [Optimistic and pessimistic locking](09-transactions-async-and-scheduling/52-optimistic-and-pessimistic-locking/52-optimistic-and-pessimistic-locking.md) |
 | 53 | [Asynchronous methods with `@Async`](09-transactions-async-and-scheduling/53-asynchronous-methods-with-async/53-asynchronous-methods-with-async.md) |
-| 54 | Scheduled tasks with `@Scheduled` |
+| 54 | [Scheduled tasks with `@Scheduled`](09-transactions-async-and-scheduling/54-scheduled-tasks-with-scheduled/54-scheduled-tasks-with-scheduled.md) |
 
 ### 10 · Caching
 
