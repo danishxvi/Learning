@@ -69,7 +69,7 @@ lesson for a later one to build or run.
 
 ## Progress
 
-**Lessons 01-59 are complete** - written, run and verified. Everything below that line is
+**Lessons 01-60 are complete** - written, run and verified. Everything below that line is
 planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -85,7 +85,8 @@ planned and listed here so you can see the full route.
 | 09 Transactions, async and scheduling (51-54) | Complete |
 | 10 Caching (55-56) | Complete |
 | 11 Events and messaging (57-59) | Complete |
-| 12-14 (60-70) | Next |
+| 12 Microservices with Spring Cloud (60-64) | In progress (60/5) |
+| 13-14 (65-70) | Next |
 
 ---
 
@@ -212,7 +213,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 
 | # | Topic |
 | --- | --- |
-| 60 | Service discovery with Eureka |
+| 60 | [Service discovery with Eureka](12-microservices-with-spring-cloud/60-service-discovery-with-eureka/60-service-discovery-with-eureka.md) |
 | 61 | Centralized configuration with Config Server |
 | 62 | Inter-service calls with Feign |
 | 63 | API gateway |
