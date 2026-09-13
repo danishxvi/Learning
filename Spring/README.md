@@ -82,7 +82,7 @@ planned and listed here so you can see the full route.
 | 06 Aspect-oriented programming (38-39) | Complete |
 | 07 Spring Security (40-45) | Complete |
 | 08 Testing Spring applications (46-50) | Complete |
-| 09 Transactions, async and scheduling (51-54) | In progress (52/4) |
+| 09 Transactions, async and scheduling (51-54) | In progress (53/4) |
 | 10-14 (55-70) | Next |
 
 ---
@@ -188,7 +188,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | --- | --- |
 | 51 | [Transaction propagation and isolation](09-transactions-async-and-scheduling/51-transaction-propagation-and-isolation/51-transaction-propagation-and-isolation.md) |
 | 52 | [Optimistic and pessimistic locking](09-transactions-async-and-scheduling/52-optimistic-and-pessimistic-locking/52-optimistic-and-pessimistic-locking.md) |
-| 53 | Asynchronous methods with `@Async` |
+| 53 | [Asynchronous methods with `@Async`](09-transactions-async-and-scheduling/53-asynchronous-methods-with-async/53-asynchronous-methods-with-async.md) |
 | 54 | Scheduled tasks with `@Scheduled` |
 
 ### 10 · Caching
