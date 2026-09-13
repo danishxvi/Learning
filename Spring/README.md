@@ -69,7 +69,7 @@ lesson for a later one to build or run.
 
 ## Progress
 
-**Lessons 01-54 are complete** - written, run and verified. Everything below that line is
+**Lessons 01-55 are complete** - written, run and verified. Everything below that line is
 planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -83,7 +83,8 @@ planned and listed here so you can see the full route.
 | 07 Spring Security (40-45) | Complete |
 | 08 Testing Spring applications (46-50) | Complete |
 | 09 Transactions, async and scheduling (51-54) | Complete |
-| 10-14 (55-70) | Next |
+| 10 Caching (55-56) | In progress (55/2) |
+| 11-14 (57-70) | Next |
 
 ---
 
@@ -195,7 +196,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 
 | # | Topic |
 | --- | --- |
-| 55 | The Spring Cache abstraction |
+| 55 | [The Spring Cache abstraction](10-caching/55-the-spring-cache-abstraction/55-the-spring-cache-abstraction.md) |
 | 56 | Caching with Redis |
 
 ### 11 · Events and messaging
