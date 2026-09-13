@@ -69,7 +69,7 @@ lesson for a later one to build or run.
 
 ## Progress
 
-**Lessons 01-65 are complete** - written, run and verified. Everything below that line is
+**Lessons 01-66 are complete** - written, run and verified. Everything below that line is
 planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -86,7 +86,7 @@ planned and listed here so you can see the full route.
 | 10 Caching (55-56) | Complete |
 | 11 Events and messaging (57-59) | Complete |
 | 12 Microservices with Spring Cloud (60-64) | Complete |
-| 13 Production readiness (65-69) | In progress (65/5) |
+| 13 Production readiness (65-69) | In progress (66/5) |
 | 14 Capstone (70) | Next |
 
 ---
@@ -225,7 +225,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | # | Topic |
 | --- | --- |
 | 65 | [Actuator deep dive and metrics with Micrometer](13-production-readiness/65-actuator-deep-dive-and-metrics-with-micrometer/65-actuator-deep-dive-and-metrics-with-micrometer.md) |
-| 66 | Profiles for real environments |
+| 66 | [Profiles for real environments](13-production-readiness/66-profiles-for-real-environments/66-profiles-for-real-environments.md) |
 | 67 | Packaging and running the fat jar |
 | 68 | Dockerizing a Spring Boot application |
 | 69 | Graceful shutdown and health checks |
