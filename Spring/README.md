@@ -80,7 +80,7 @@ planned and listed here so you can see the full route.
 | 04 Building REST APIs with Spring MVC (21-28) | Complete |
 | 05 Data access with Spring Data JPA (29-37) | Complete |
 | 06 Aspect-oriented programming (38-39) | Complete |
-| 07 Spring Security (40-45) | In progress - 40-43 done |
+| 07 Spring Security (40-45) | In progress - 40-44 done |
 | 08-14 (46-70) | Next |
 
 ---
@@ -167,7 +167,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 | 41 | [The security filter chain](07-spring-security/41-the-security-filter-chain/41-the-security-filter-chain.md) |
 | 42 | [Password encoding and `UserDetails`](07-spring-security/42-password-encoding-and-userdetails/42-password-encoding-and-userdetails.md) |
 | 43 | [JWT-based stateless authentication](07-spring-security/43-jwt-based-stateless-authentication/43-jwt-based-stateless-authentication.md) |
-| 44 | Method-level security |
+| 44 | [Method-level security](07-spring-security/44-method-level-security/44-method-level-security.md) |
 | 45 | CORS and CSRF |
 
 ### 08 · Testing Spring applications
