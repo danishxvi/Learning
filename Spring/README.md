@@ -69,8 +69,7 @@ lesson for a later one to build or run.
 
 ## Progress
 
-**Lessons 01-69 are complete** - written, run and verified. Everything below that line is
-planned and listed here so you can see the full route.
+**All 70 lessons are complete** - written, run and verified.
 
 | Section | Status |
 | --- | --- |
@@ -87,7 +86,7 @@ planned and listed here so you can see the full route.
 | 11 Events and messaging (57-59) | Complete |
 | 12 Microservices with Spring Cloud (60-64) | Complete |
 | 13 Production readiness (65-69) | Complete |
-| 14 Capstone (70) | Next |
+| 14 Capstone (70) | Complete |
 
 ---
 
@@ -234,7 +233,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 
 | # | Topic |
 | --- | --- |
-| 70 | Building a complete REST API end to end |
+| 70 | [Building a complete REST API end to end](14-capstone/70-building-a-complete-rest-api-end-to-end/70-building-a-complete-rest-api-end-to-end.md) |
 
 ---
 
