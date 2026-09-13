@@ -69,7 +69,7 @@ lesson for a later one to build or run.
 
 ## Progress
 
-**Lessons 01-56 are complete** - written, run and verified. Everything below that line is
+**Lessons 01-57 are complete** - written, run and verified. Everything below that line is
 planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -84,7 +84,8 @@ planned and listed here so you can see the full route.
 | 08 Testing Spring applications (46-50) | Complete |
 | 09 Transactions, async and scheduling (51-54) | Complete |
 | 10 Caching (55-56) | Complete |
-| 11-14 (57-70) | Next |
+| 11 Events and messaging (57-59) | In progress (57/3) |
+| 12-14 (60-70) | Next |
 
 ---
 
@@ -203,7 +204,7 @@ Read in numeric order. Each topic is a folder: the `.md` is the lesson, `pom.xml
 
 | # | Topic |
 | --- | --- |
-| 57 | Application events and `@EventListener` |
+| 57 | [Application events and `@EventListener`](11-events-and-messaging/57-application-events-and-eventlistener/57-application-events-and-eventlistener.md) |
 | 58 | Messaging with RabbitMQ |
 | 59 | Messaging with Kafka |
 
