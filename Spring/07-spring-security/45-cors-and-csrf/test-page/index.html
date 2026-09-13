@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CORS and CSRF test page</title>
+</head>
+<body>
+<!--
+  Served from its OWN origin (http://localhost:5500, via `python -m http.server 5500`
+  run from this folder) - genuinely DIFFERENT from the Spring Boot API's origin
+  (http://localhost:8080). This is what makes the CORS test in this lesson real:
+  curl never enforces CORS at all (it's a BROWSER-side restriction), so this static
+  page, opened in an actual browser, is the only way to see it for real.
+-->
+<h1>CORS and CSRF test page</h1>
+
+<h2>1. CORS - fetch cross-origin JSON</h2>
+<button onclick="fetchData()">GET http://localhost:8080/api/data</button>
+<pre id="corsResult">(not run yet)</pre>
+
+<h2>2. CSRF - try to POST without a token, then with one</h2>
+<button onclick="postWithoutToken()">POST /api/notes WITHOUT a CSRF token</button>
+<button onclick="postWithToken()">POST /api/notes WITH the CSRF cookie's token</button>
+<pre id="csrfResult">(not run yet)</pre>
+
+<script>
+const API = "http://localhost:8080";
+
+async function fetchData() {
+    const out = document.getElementById("corsResult");
+    try {
+        const res = await fetch(API + "/api/data", { credentials: "include" });
+        const body = await res.json();
+        out.textContent = "SUCCESS (" + res.status + "): " + JSON.stringify(body);
+    } catch (err) {
+        out.textContent = "FETCH FAILED (this is what a browser CORS block looks like): " + err;
+    }
+}
+
+function readCookie(name) {
+    const match = document.cookie.match(new RegExp("(^| )" + name + "=([^;]+)"));
+    return match ? decodeURIComponent(match[2]) : null;
+}
+
+async function postWithoutToken() {
+    const out = document.getElementById("csrfResult");
+    const res = await fetch(API + "/api/notes", {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: "a note with no CSRF token" })
+    });
+    out.textContent = "Status " + res.status + " (no token sent): " + await res.text();
+}
+
+async function postWithToken() {
+    const out = document.getElementById("csrfResult");
+    // First, a GET to make sure the XSRF-TOKEN cookie has actually been set at least
+    // once by the server (CookieCsrfTokenRepository sets it on responses it handles).
+    await fetch(API + "/api/data", { credentials: "include" });
+    const token = readCookie("XSRF-TOKEN");
+    const res = await fetch(API + "/api/notes", {
+        method: "POST",
+        credentials: "include",
+        headers: {
+            "Content-Type": "application/json",
+            "X-XSRF-TOKEN": token
+        },
+        body: JSON.stringify({ text: "a note WITH a valid CSRF token" })
+    });
+    out.textContent = "Status " + res.status + " (token=" + token + "): " + await res.text();
+}
+</script>
+</body>
+</html>
