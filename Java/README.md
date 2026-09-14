@@ -47,7 +47,7 @@ zero-install alternative so you are never blocked.
 
 ## Progress
 
-**Lessons 01-63 are complete** - written, run and verified. Everything below that line
+**Lessons 01-64 are complete** - written, run and verified. Everything below that line
 is planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -63,7 +63,7 @@ is planned and listed here so you can see the full route.
 | 09 Generics and collections (42-50) | Complete |
 | 10 Functional Java (51-56) | Complete |
 | 11 I/O, files and time (57-61) | Complete |
-| 12 Concurrency (62-67) | In progress - 62-63 done |
+| 12 Concurrency (62-67) | In progress - 62-64 done |
 
 ---
 

@@ -262,7 +262,7 @@ topics are complete, so you always know where the finished edge is.
 
 | Stack | Status |
 | --- | --- |
-| Java | 63 of 76 lessons complete |
+| Java | 64 of 76 lessons complete |
 | Spring | 70 of 70 lessons complete |
 | JavaScript | Planned |
 | Node.js | Planned |
