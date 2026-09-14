@@ -47,7 +47,7 @@ zero-install alternative so you are never blocked.
 
 ## Progress
 
-**Lessons 01-45 are complete** - written, run and verified. Everything below that line
+**Lessons 01-46 are complete** - written, run and verified. Everything below that line
 is planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -60,7 +60,7 @@ is planned and listed here so you can see the full route.
 | 06 Object-oriented core (21-29) | Complete |
 | 07 Object-oriented, advanced (30-38) | Complete |
 | 08 Exception handling (39-41) | Complete |
-| 09 Generics and collections (42-50) | In progress - 42-45 done |
+| 09 Generics and collections (42-50) | In progress - 42-46 done |
 | 10-14 (51-76) | Next |
 
 ---
