@@ -47,7 +47,7 @@ zero-install alternative so you are never blocked.
 
 ## Progress
 
-**Lessons 01-54 are complete** - written, run and verified. Everything below that line
+**Lessons 01-55 are complete** - written, run and verified. Everything below that line
 is planned and listed here so you can see the full route.
 
 | Section | Status |
@@ -61,7 +61,7 @@ is planned and listed here so you can see the full route.
 | 07 Object-oriented, advanced (30-38) | Complete |
 | 08 Exception handling (39-41) | Complete |
 | 09 Generics and collections (42-50) | Complete |
-| 10 Functional Java (51-56) | In progress - 51-54 done |
+| 10 Functional Java (51-56) | In progress - 51-55 done |
 
 ---
 
